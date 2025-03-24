@@ -1,0 +1,16 @@
+/* Main Container */
+.job-listings-container {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Job Listings */
+.job-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}

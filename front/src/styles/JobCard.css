@@ -1,0 +1,84 @@
+/* Container for the entire job card */
+.job-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+/* Job card styling */
+.job-card {
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Job image styling */
+.job-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Job details section */
+.job-details {
+    text-align: left;
+}
+
+.job-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.job-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Job title styling */
+.job-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Job location styling */
+.job-location {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Job description styling */
+.job-description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Apply button styling */
+.apply-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.apply-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.apply-button:hover:not(:disabled) {
+    background-color: #2980b9;
+}
